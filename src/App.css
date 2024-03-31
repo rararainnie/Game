@@ -1,0 +1,58 @@
+.App {
+  margin-top: 15vh;
+  text-align: center;
+}
+
+h4 {
+  padding: 15px 30px;
+  text-align: center;
+}
+
+.startGameBtn {
+  border-radius: 25px;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.numbers {
+  margin-top: 20px;
+  font-size: 50px;
+}
+
+.numbers span {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.userInput {
+  border-radius: 25px;
+  width: 180px;
+  height: 40px;
+  font-size: 18px;
+  text-align: center;
+}
+
+.submitBtn,
+.showAnswerBtn {
+  border-radius: 25px;
+  padding: 15px 32px;
+  font-size: 16px;
+  margin-top: 30px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.answer,
+.message,
+.timer {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+.startGameBtn:hover,
+.submitBtn:hover,
+.showAnswerBtn:hover {
+  box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.5);
+}
